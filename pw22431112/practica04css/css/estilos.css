@@ -1,0 +1,111 @@
+html{
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+    font-family: sans-serif, Arial;
+}
+body{
+    padding-top: 50px;
+}
+header{
+}
+header nav ul li{
+    margin: 0px 10px;
+    display: inline-block;
+}
+header nav ul{
+    margin-top: 50px;
+    margin-left: -40px;
+}
+footer{
+    position: relative;
+    top: -100px;
+}
+.sec00 article{
+    display: inline-block;
+}
+.sec00{
+    position: relative;
+    top: 30px;
+}
+.sec00art03{
+    margin: 0px;
+    padding: 0px;
+}
+.sec02{
+    margin: 0px;
+    
+}
+.sec02art01{
+    vertical-align: top;
+    position: relative;
+    top: -30px;
+    padding-top: 0px;
+    margin-top: 0px;
+
+    width: 10%;
+    
+}
+.sec02art02{
+    width: 60%;
+}
+.sec00art02{
+    margin: 0px;
+    padding: 0px;
+}
+.sec02art01 img{
+    width: 49%;
+}
+.sec02 article{
+    width: 49%;
+    display: inline-block;
+    vertical-align: top;
+}
+.sec02art02 img{
+    margin-top: 10px;
+}
+.footsec02 article{
+    width: 15.6%;
+    vertical-align: top;
+    display: inline-block;
+    padding-top: 50px;
+    margin-right: 40px;
+}
+#logorojo, #bandera, #mundo{
+    position: relative;
+    top: -180px;
+    left: 870px;
+    
+}
+#buy{
+    position: relative;
+    top: 30px;
+    left: 70px;
+}
+#goshop{
+    position: relative;
+    top: -40px;
+    left: 60px;
+    width: 60%;
+}
+#y5{
+    position: relative;
+    top: -120px;
+}
+.nito{
+    font-weight: bold;
+}
+.letra-grande{
+    font-size: 3.7em;
+}
+.color-verde{
+    color: greenyellow;
+}
+.texto{
+    margin-top: 0px;
+    margin-bottom: 55px;
+    font-size: 1.3em;
+}
+hr{
+    border: 2px dashed gray;
+}
