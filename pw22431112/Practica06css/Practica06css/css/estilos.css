@@ -1,0 +1,138 @@
+body{
+    font-family: sans-serif;
+    max-width: 800px;
+    font-size: 16px;
+
+    margin: 0 auto;
+}
+.sec01art01{
+    background: black;
+    padding: 0px 10px;
+    
+}
+.sec01art02{
+    text-align: center;
+    padding: 50px 0;
+    background: #DADBF1;
+}
+.logotxt{
+    position: relative;
+    bottom: 12px;
+}
+.contenedor{
+    margin: 90px 70px;
+    column-gap: 40px;
+    row-gap: 60px;
+    display: grid;
+    grid-template: 
+    "imgbranches branches  imgaccount account "
+    "imgproject organizations imgbilling billing"
+    "imgauthenticate authenticate imgsupport support";
+    grid-template-columns: 30px 1fr 30px 1fr;
+    
+}
+.submit{
+    margin-right: 10px;
+    border-radius: 5px;
+    padding: 4px 15px;
+    border: none;
+    color: white;
+    border: 1px solid white;
+    background: none;
+    margin-top: 7px;
+}
+.Sign{
+    border-radius: 5px;
+    border: none;
+    margin-right: 30px;
+    color: white;
+    padding: 4px 15px;
+    background: #4B5FD5;
+    margin-top: 7px;
+}
+.submit, .Sign{
+    float: right;
+    
+}
+.busqueda{
+    width: 60%;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.footer{
+    background: black;
+}
+.imagen{
+    width:50px;
+}
+footer>section>article{
+    display: inline-block;
+    width: 10%;
+    padding:30px 0px ;
+    padding-left: 50px;
+    vertical-align: top;
+}
+.branches{
+    grid-area: branches;
+}
+.imgbranches{
+    grid-area: imgbranches;
+}
+.account{
+    grid-area: account;
+}
+
+.imgaccount{
+    grid-area: imgaccount;
+}
+.organizations{
+    grid-area: organizations;
+}
+.imgorganizations{
+    grid-area: imgproject;
+}
+.billing{
+    grid-area: billing;
+}
+.imgbilling{
+    grid-area: imgbilling;
+}
+.authenticate{
+    grid-area: authenticate;
+}
+.imgauth{
+    grid-area: imgauthenticate;
+}
+.support{
+    grid-area: support;
+}
+.imgsupport{
+    grid-area: imgsupport;
+}
+.footseccopy{
+    vertical-align: bottom;
+    text-align: start;
+    width: 18%;
+}
+.blanco{
+    color: white;
+}
+.nito{
+    font-weight: bold;
+}
+.let-peq{
+    font-size: 0.6em;
+}
+.let-med{
+    font-size: 0.8em;
+}
+.let-gra{
+    font-size: 3em;
+}
+.logo{
+    width: 40px;
+}
+.lm{
+    color: blue;
+}
